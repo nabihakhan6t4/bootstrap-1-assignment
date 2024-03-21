@@ -155,15 +155,19 @@ section.magic-processing{
    margin-top: 30px;
 }
 .content{
-   line-height: 40px;
+   line-height: 15px;
 position: absolute;
 height: 500px;
 border-radius: 10px;
-padding-top: 100px;
+padding: 160px;
 width: 900px;
 border: 1px solid white;
    bottom: 100px;
    left:  450px;
+}
+.content p{
+    margin-bottom: 50px;
+    line-height: 35px;
 }
 #discover{
     padding: 10px 20px;
@@ -373,11 +377,113 @@ section.client-say{
 .padding{
     padding-top: 50px;
 }
+.Goods{
+    color: rgba(0, 0, 0, 0.5);
+}
+section.Our-Special-Cakes , .Goods{
+    text-align: center;
+}
+.Goods{
+    display: flex;
+    text-align: center;
+}
 
 
-
-
-
+@media  screen and (max-width:480px) and (min-width:0px){
+    body{
+     margin: 0;
+     padding: 0;
+    }
+    section.magic-processing{
+     background-image: url(images/bakery12-3-1200x800.jpg) !important ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    }
+    .background{
+        background: rgba(125, 210, 208,0.9) !important;
+    }
+    .content{
+        line-height: 15px;
+     position: absolute;
+     height: 500px;
+     border-radius: 10px;
+     padding: 160px;
+     width: 900px;
+     border: 1px solid white;
+        bottom: 100px;
+        left:  450px;
+     }
+     .content p{
+         margin-bottom: 50px;
+         line-height: 35px;
+     }
+}
+@media screen and (max-width:768px) and (min-width:481px){
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+       }
+       section.magic-processing{
+        background-image: url(images/bakery12-3-1200x800.jpg) !important ;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       position: relative;
+       }
+       .background{
+           background: rgba(125, 210, 208,0.9) !important;
+       }
+       .content{
+        line-height: 15px;
+     position: absolute;
+     height: 500px;
+     border-radius: 10px;
+     padding: 160px;
+     width: 900px;
+     border: 1px solid white;
+        bottom: 100px;
+        left:  450px;
+     }
+     .content p{
+         margin-bottom: 50px;
+         line-height: 35px;
+     }
+}
+@media screen and (max-width:1279px) and (min-width:769px) {
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+       }
+       section.magic-processing{
+        background-image: url(images/bakery12-3-1200x800.jpg) !important ;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       position: relative;
+       }
+       .background{
+           background: rgba(125, 210, 208,0.9) !important;
+       }
+       .content{
+        line-height: 15px;
+     position: absolute;
+     height: 500px;
+     border-radius: 10px;
+     padding: 160px;
+     width: 900px;
+     border: 1px solid white;
+        bottom: 100px;
+        left:  450px;
+     }
+     .content p{
+         margin-bottom: 50px;
+         line-height: 35px;
+     }
+}
 
 
 
