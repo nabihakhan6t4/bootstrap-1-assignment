@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "DMSans";
+    src: url(fonts/DMSans_18pt-Regular.ttf);
+}
+body{
+    overflow-x: hidden;
+    font-family: "DMSans";
+}
+.bg-our-specialist{
+background-image: url(images/Our\ Specialties.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.btn-custom{
+    background:#3DB9B5;
+}
+.BG-PICTURE{
+    background-image: URL(images/Our\ Specialties.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-picture-RecipesForYou{
+background-image: url(images/Recipes\ For\ You-background-image-first.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.bg-picture-2-RecipesForYou{
+background-image: url(images/Recipes\ For\ You-background-image.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.bg-ClientsSay{
+    background-image: url(images/Clients\ Say-background-image.jpg)  rgba(177, 147, 152, );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(224, 144, 157, 0.55);
+}
+.background-image{
+    background-image: url(images/last-seection.jpg);
+}
